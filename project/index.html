@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="welcome-screen">
+        <h1>Welcome to the Quiz</h1>
+        <button id="startQuiz" class="btn">Start Quiz</button>
+    </div>
+
+    <div class="main-div">
+        <div class="inner-div">
+            <h2 class="question">Question comes here</h2>
+            <ul id="options"> 
+                <li id="a">
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label for="ans1" class="option" id="option1">Answer Option</label>
+                </li>
+
+                <li id="b">
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans2" class="option" id="option2">Answer Option</label>
+                </li>
+
+                <li id="c">
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans3" class="option" id="option3">Answer Option</label>
+                </li>
+
+                <li id="d">
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans4" class="option" id="option4">Answer Option</label>
+                </li>
+
+            </ul>
+            <button id="submit" class="btn">Submit</button>
+            <div id="showscore" class="ScoreArea"></div>
+        </div>
+    </div>
+
+    <button id="scrollToTop" class="scroll-button">Scroll to Top</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
